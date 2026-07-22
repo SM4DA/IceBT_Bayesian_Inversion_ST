@@ -10,11 +10,13 @@ This repository contains the following directories and files:
 
 - `Data/` – Data generation.
 
-- `Inverse_Model/` – Jobs_sbatch_codes, emcee_inversion_codes, RJMCMC_inversion_codes, and Results.
+- `Inverse_Model/` – Jobs_sbatch_codes, emcee_inversion_codes, and RJMCMC_inversion_codes.
 
-- `Plots_case_study.ipynb`  – Steps to reproduce case study section plots.
+- `Results/` – Final results 
 
-- `Plots_results.ipynb`  – Steps to reproduce result section plots.
+- `Plots_case_study.ipynb`  – Case study section plots.
+
+- `Plots_results.ipynb`  – Result section plots.
 
 - `README.md` – Project overview and instructions (that's me!).
 
@@ -25,11 +27,11 @@ The data consist of borehole temperature–depth profiles simulated using a heat
 
 * `Data/` contains considered timeseries, simulated measurements for both results and casestudy section.
 
-* `Synthetic signals.ipynb` demonstrates how to simulate the borehole temperature profile for results section.
+* `Synthetic signals.ipynb` demonstrates the borehole temperature profile simulation for results section.
 
-* `Realistic signals.ipynb` demonstrates the borehole profile simulation for case study.
+* `Realistic signals.ipynb` demonstrates the borehole temperature profile simulation for case study.
 
-The simulated measurements for Synthetic signals in Results section are stored under `Data/Gaussian_pulse_signals/Artificial_measurements/` and for case study section are stored under `Data/case_study/Realistic_artificial_measurements/`.
+The simulated measurements for Synthetic signals in Results section are stored under `Data/Gaussian_pulse_signals/Artificial_measurements/` and realistic measurements for case study are stored under `Data/case_study/Realistic_artificial_measurements/`.
 
 ### Inverse model
 
@@ -41,11 +43,13 @@ The code used to produce the results presented in the paper are organized in the
 
 * `RJMCMC_inversion_codes/` contains RJMCMC inversion codes and sampler result generation codes.
 
+### Results
+
 * `Results/` contains final results which are used to create the figures in the paper.
 
 ### Plots
 
-The procedures for reproducing the plots and locating the corresponding results are detailed in `Plots_results.ipynb` and `Plots_case_study.ipynb`. 
+Locating the corresponding results from `Results` to produce plots presented in our work are detailed in `Plots_results.ipynb` and `Plots_case_study.ipynb`. 
 
 ### Instructions
 
